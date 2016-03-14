@@ -35,8 +35,4 @@ var myClassLib = myClassLib || {};
 		exports.Vehicle = Vehicle;
 		exports.Car = Car;
 		
-		/*var toyota = new Car("Toyota", 220);
-		toyota.modelInfo();
-		toyota.maxSpeedInfo();*/
-		
 }(myClassLib));
