@@ -1,0 +1,14 @@
+.red {
+	background: red;
+}
+
+.blue {
+	background: blue;
+}
+
+.btn {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 10px;
+}
