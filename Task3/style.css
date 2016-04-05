@@ -1,0 +1,41 @@
+.tagfield {
+    width: 600px;
+    height: 35px;
+    border: 1px solid #000;
+    min-height: 20px;
+    position: relative;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+input[type="taginput"] {
+    border: none;
+    outline: none;
+    font-size: 25px;
+    padding-top: 3px;
+    width: calc(100% - 25px);
+}
+
+.tag {
+    margin-right: 2px;
+    background: green;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 2px;
+}
+
+.closeTag {
+    color: red;
+    cursor: pointer;
+}
+
+.removeAll {
+    color: red;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-right: 5px; 
+    visibility: hidden;
+    cursor: pointer;
+}
